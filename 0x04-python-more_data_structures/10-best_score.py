@@ -9,4 +9,6 @@ def best_score(my_dict):
             if v > score:
                 score = v
                 key = k
+    if score == 0:
+        return None
     return key
