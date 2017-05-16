@@ -1,0 +1,64 @@
+This is a doctest based regression suite for 4-print_square.txt
+Each '>>>' line is run as if in a python shell, and counts as a test.
+The next line, if not '>>>' is the expected output of the previous line.
+If anything doesn't match exactly (including trailing spaces), the test fails.
+
+>>> print_square = __import__('4-print_square').print_square
+>>> print_square(4)
+####
+####
+####
+####
+>>> print_square(10)
+##########
+##########
+##########
+##########
+##########
+##########
+##########
+##########
+##########
+##########
+>>> print_square(0)
+>>> print_square(1)
+#
+>>> print_square(-1)
+Traceback (most recent call last):
+	  ...
+ValueError: size must be >= 0
+>>> print_square(-1.9)
+Traceback (most recent call last):
+	  ...
+TypeError: size must be an integer
+>>> print_square(7.9)
+Traceback (most recent call last):
+	  ...
+TypeError: size must be an integer
+>>> print_square('Hi')
+Traceback (most recent call last):
+	  ...
+TypeError: size must be an integer
+>>> print_square('c')
+Traceback (most recent call last):
+	  ...
+TypeError: size must be an integer
+>>> print_square([1, 2, 3])
+Traceback (most recent call last):
+	  ...
+TypeError: size must be an integer
+>>> print_square(True)
+#
+>>> print_square(False)
+>>> print_square(None)
+Traceback (most recent call last):
+	  ...
+TypeError: size must be an integer
+>>> print_square()
+Traceback (most recent call last):
+	  ...
+TypeError: print_square() missing 1 required positional argument: 'size'
+>>> print_square(3, 5)
+Traceback (most recent call last):
+	  ...
+TypeError: print_square() takes 1 positional argument but 2 were given
