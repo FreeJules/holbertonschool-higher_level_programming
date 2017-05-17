@@ -14,7 +14,7 @@ def text_indentation(text):
     """
     Prints a text with 2 new lines after each of those characters: ., ? and :
     Text must be a string
-    There should be no space at the beginning or at the end of each printed line
+    There should be no space at the beginning or end of each printed line
     """
     if not isinstance(text, str):
         raise TypeError('text must be a string')
@@ -27,6 +27,9 @@ def text_indentation(text):
             flag1 = False
         if i == '.' or i == '?' or i == ':':
             print('{}\n'.format(i))
+            flag2 = True
+        elif i == '\n':
+            print()
             flag2 = True
         else:
             if i == ' ' and flag2:
