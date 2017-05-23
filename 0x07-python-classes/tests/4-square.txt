@@ -1,0 +1,46 @@
+>>> Square = __import__('4-square').Square
+>>> my_square = Square(89)
+>>> print("Area: {} for size: {}".format(my_square.area(), my_square.size))
+Area: 7921 for size: 89
+>>> my_square = Square(-8)
+>>> print("Area: {} for size: {}".format(my_square.area(), my_square.size))
+Area: 64 for size: -8
+>>> my_square.size = -8
+Traceback (most recent call last):
+	  ...
+ValueError: size must be >= 0
+>>> my_square = Square("string")
+>>> my_square.size = "string"
+Traceback (most recent call last):
+	  ...
+TypeError: size must be an integer
+>>> my_square.size = 6.9
+Traceback (most recent call last):
+	  ...
+TypeError: size must be an integer
+>>> my_square = Square(6.9)
+>>> print("Area: {} for size: {}".format(my_square.area(), my_square.size))
+Area: 36 for size: 6.9
+>>> my_square = Square('A')
+>>> print("Area: {} for size: {}".format(my_square.area(), my_square.size))
+Traceback (most recent call last):
+	  ...
+ValueError: invalid literal for int() with base 10: 'A'
+>>> my_square = Square(A)
+Traceback (most recent call last):
+	  ...
+NameError: name 'A' is not defined
+>>> print("Area: {} for size: {}".format(my_square.area(), my_square.size))
+Traceback (most recent call last):
+	  ...
+ValueError: invalid literal for int() with base 10: 'A'
+>>> my_square = Square([1, 5])
+>>> print("Area: {} for size: {}".format(my_square.area(), my_square.size))
+Traceback (most recent call last):
+	  ...
+TypeError: int() argument must be a string, a bytes-like object or a number, not 'list'
+>>> my_square = Square((1, 5))
+>>> print("Area: {} for size: {}".format(my_square.area(), my_square.size))
+Traceback (most recent call last):
+	  ...
+TypeError: int() argument must be a string, a bytes-like object or a number, not 'tuple'
