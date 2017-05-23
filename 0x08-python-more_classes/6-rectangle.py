@@ -1,5 +1,8 @@
 #!/usr/bin/python3
 class Rectangle:
+
+    number_of_instances = 0
+
     def __init__(self, width=0, height=0):
         if not isinstance(width, int):
             raise TypeError("width must be an integer")
@@ -11,6 +14,7 @@ class Rectangle:
         if height < 0:
             raise ValueError("height must be >= 0")
         self.__height = height
+        self.__class__.number_of_instances += 1
 
     @property
     def width(self):
@@ -40,19 +44,22 @@ class Rectangle:
         return self.__height * self.__width
 
     def perimeter(self):
+        if self.__width == 0 or self.__height == 0:
+                return 0
         return self.__height * 2 + self.__width * 2
 
     def __str__(self):
-        str = ''
+        string = ''
         for i in range(0, int(self.__height)):
             for j in range(0, int(self.__width)):
-                str += '#'
+                string += '#'
             if i != int(self.__height) - 1:
-                str += '\n'
-        return str
+                string += '\n'
+        return string
 
     def __repr__(self):
         return 'Rectangle({}, {})'.format(self.__width, self.__height)
 
     def __del__(self):
         print("Bye rectangle...")
+        self.__class__.number_of_instances -= 1
