@@ -52,8 +52,6 @@ class SinglyLinkedList:
 
     def __str__(self):
         string = ''
-        if self.__head = None:
-            return string
         tmp = self.__head
         while tmp is not None:
             string += str(tmp.data) + '\n'
