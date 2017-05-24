@@ -1,0 +1,50 @@
+>>> Square = __import__('102-square').Square
+>>> s_5 = Square(2)
+>>> s_6 = Square(-6)
+Traceback (most recent call last):
+	  ...
+ValueError: size must be >= 0
+>>> s_6 = Square(6)
+>>> s_5 < s_6
+True
+>>> s_5 > s_6
+False
+>>> s_5 == s_6
+False
+>>> s_5 != s_6
+True
+>>> s_5 >= s_6
+False
+>>> s_5 <= s_6
+True
+>>> s_5 = Square(9.8)
+Traceback (most recent call last):
+	  ...
+TypeError: size must be an integer
+>>> s_5 = Square("string")
+Traceback (most recent call last):
+	  ...
+TypeError: size must be an integer
+>>> s_5 = Square([3, "hi"])
+Traceback (most recent call last):
+	  ...
+TypeError: size must be an integer
+>>> s_5 = Square()
+>>> s_5 == s_6
+False
+>>> s_5 == s_5
+True
+>>> s_5 = Square(None)
+Traceback (most recent call last):
+	  ...
+TypeError: size must be an integer
+>>> s_5 = Square(True)
+>>> s_5 != s_6
+True
+>>> s_6 = Square(False)
+>>> s_5 != s_6
+True
+>>> s_5 == s_6
+False
+>>> s_5 >= s_6
+True
