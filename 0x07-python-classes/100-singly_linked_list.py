@@ -25,9 +25,12 @@ class Node:
 
     @next_node.setter
     def next_node(self, value):
-        if not isinstance(value, Node) and value is not None:
+        if not value is not None and not isinstance(value, Node):
             raise TypeError("size must be an integer")
         self.__next_node = value
+
+    def __str__(self):
+        return str(self.__data)
 
 
 class SinglyLinkedList:
@@ -52,6 +55,8 @@ class SinglyLinkedList:
 
     def __str__(self):
         string = ''
+        if self.__head is None:
+            return string
         tmp = self.__head
         while tmp is not None:
             string += str(tmp.data) + '\n'
