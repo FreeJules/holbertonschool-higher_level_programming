@@ -6,7 +6,7 @@ class Node:
             raise TypeError("data must be an integer")
         self.__data = data
         if next_node is not None and not isinstance(next_node, Node):
-            raise TypeError("size must be an integer")
+            raise TypeError("next_node must be an integer")
         self.__next_node = next_node
 
     @property
@@ -26,7 +26,7 @@ class Node:
     @next_node.setter
     def next_node(self, value):
         if value is not None and not isinstance(value, Node):
-            raise TypeError("size must be an integer")
+            raise TypeError("next_node must be an integer")
         self.__next_node = value
 
     def __str__(self):
