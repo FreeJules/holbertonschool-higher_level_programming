@@ -1,8 +1,8 @@
 #!/usr/bin/python3
 import math
-'''
-MagicClass
-'''
+'''MagicClass'''
+
+
 class MagicClass:
     '''aka Circle Class'''
     def __init__(self, radius=0):
