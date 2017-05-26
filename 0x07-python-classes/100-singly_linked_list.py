@@ -39,6 +39,8 @@ class SinglyLinkedList:
         self.__head = None
 
     def sorted_insert(self, value):
+        if not isinstance(value, int):
+            raise TypeError("data must be an integer")
         tmp = self.__head
         if tmp is None:
             self.__head = Node(value)
@@ -54,11 +56,9 @@ class SinglyLinkedList:
             tmp.next_node = new
 
     def __str__(self):
-        string = ''
-        if self.__head is None:
-            return string
+        string = []
         tmp = self.__head
         while tmp is not None:
-            string += str(tmp.data) + '\n'
+            string.append(str(tmp.data))
             tmp = tmp.next_node
-        return string[:-1]
+        return '\n'.join(string)
