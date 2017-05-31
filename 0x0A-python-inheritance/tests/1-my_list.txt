@@ -1,0 +1,89 @@
+The ``my_list`` module
+=============================
+
+Using ``my_list``
+-----------------------------
+
+Importing the function to test
+
+>>> MyList = __import__('1-my_list').MyList
+
+-----------------------------
+Begin test cases:
+>>> my_list = MyList()
+>>> my_list.append(4.5)
+>>> my_list.append(1.3)
+>>> my_list.append(7.5)
+>>> print(my_list)
+[4.5, 1.3, 7.5]
+>>> my_list.print_sorted()
+[1.3, 4.5, 7.5]
+>>> my_list = MyList()
+>>> my_list.append("hi")
+>>> my_list.append("bye")
+>>> my_list.append("ciao")
+>>> print(my_list)
+['hi', 'bye', 'ciao']
+>>> my_list.print_sorted()
+['bye', 'ciao', 'hi']
+>>> my_list = MyList()
+>>> print(my_list)
+[]
+>>> my_list.print_sorted()
+[]
+>>> my_list = MyList()
+>>> my_list.append(None)
+>>> my_list.append(None)
+>>> my_list.append(None)
+>>> print(my_list)
+[None, None, None]
+>>> my_list.print_sorted()
+Traceback (most recent call last):
+	  ...
+TypeError: unorderable types: NoneType() < NoneType()
+>>> my_list = MyList()
+>>> my_list.append([1, 3], [4, 1], [6, 4])
+Traceback (most recent call last):
+	  ...
+TypeError: append() takes exactly one argument (3 given)
+>>> my_list.append([1, 3])
+>>> my_list.append([4, 2])
+>>> my_list.append([9, 5])
+>>> print(my_list)
+[[1, 3], [4, 2], [9, 5]]
+>>> my_list.print_sorted()
+[[1, 3], [4, 2], [9, 5]]
+>>> my_list.append([2, 6])
+>>> print(my_list)
+[[1, 3], [4, 2], [9, 5], [2, 6]]
+>>> my_list.print_sorted()
+[[1, 3], [2, 6], [4, 2], [9, 5]]
+>>> my_list = MyList()
+>>> my_list.append("hello")
+>>> my_list.append(3)
+>>> my_list.append('y')
+>>> print(my_list)
+['hello', 3, 'y']
+>>> my_list.print_sorted()
+Traceback (most recent call last):
+	  ...
+TypeError: unorderable types: int() < str()
+>>> my_list = MyList()
+>>> my_list.append('y')
+>>> my_list.append(None)
+>>> print(my_list)
+['y', None]
+>>> my_list.print_sorted()
+Traceback (most recent call last):
+	  ...
+TypeError: unorderable types: NoneType() < str()
+>>> my_list = MyList()
+>>> my_list.append((0, "hi", False))
+>>> my_list.append(("no", 'y'))
+>>> my_list.append((1.2, 8.6))
+>>> print(my_list)
+[(0, 'hi', False), ('no', 'y'), (1.2, 8.6)]
+>>> my_list.print_sorted()
+Traceback (most recent call last):
+	  ...
+TypeError: unorderable types: str() < int()
