@@ -87,3 +87,37 @@ TypeError: unorderable types: NoneType() < str()
 Traceback (most recent call last):
 	  ...
 TypeError: unorderable types: str() < int()
+>>> my_list = MyList([2, 3, 6, 7])
+>>> print(my_list)
+[2, 3, 6, 7]
+>>> my_list.print_sorted()
+[2, 3, 6, 7]
+>>> my_list = MyList([7, 6, 3, 2])
+>>> print(my_list)
+[7, 6, 3, 2]
+>>> my_list.print_sorted()
+[2, 3, 6, 7]
+>>> my_list = MyList([6, 2, 7, 3])
+>>> print(my_list)
+[6, 2, 7, 3]
+>>> my_list.print_sorted()
+[2, 3, 6, 7]
+>>> my_list = MyList(True, False)
+Traceback (most recent call last):
+	  ...
+TypeError: list() takes at most 1 argument (2 given)
+>>> my_list = MyList([True, False])
+>>> print(my_list)
+[True, False]
+>>> my_list.print_sorted()
+[False, True]
+>>> my_list = MyList([(3, 4), (1, 2)])
+>>> print(my_list)
+[(3, 4), (1, 2)]
+>>> my_list.print_sorted()
+[(1, 2), (3, 4)]
+>>> my_list = MyList([(3, 3), (3, 2)])
+>>> print(my_list)
+[(3, 3), (3, 2)]
+>>> my_list.print_sorted()
+[(3, 2), (3, 3)]
