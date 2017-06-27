@@ -1,4 +1,6 @@
-### Readme
+## Python Inheritance
+
+### Read
 
 - Inheritance & Multiple inheritance
 - Inheritance in Python
