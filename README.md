@@ -1,32 +1,14 @@
-### What you should learn from this project
+## Higher Level Programming - Python
 
-Why Python programming is awesome (don’t forget to tweet today, with the hashtag #pythoniscool :))
-Who created Python
-Who is Guido van Rossum
-Where does the name 'Python' come from
-What is the Zen of Python
-How to use the Python interpreter
-How to print text and variables using print
-How to use strings
-What are indexing and slicing in Python
-What is the official Holberton Python coding style and how to check your code with PEP 8
-
-### Requirements for Python scripts
-
-Allowed editors: vi, vim, emacs
-All your files will be interpreted/compiled on Ubuntu 14.04 LTS using python3 (version 3.4.3)
-All your files should end with a new line
-The first line of all your files should be exactly #!/usr/bin/python3
-A README.md file, at the root of the folder of the project, is mandatory
-Your code should use the PEP 8 style
-All your files must be executable
-The length of your files will be tested using wc
-
-### Requirements for Shell scripts
-
-Allowed editors: vi, vim, emacs
-All your scripts will be tested on Ubuntu 14.04 LTS
-All your scripts should be exactly two lines long (wc -l file should print 2)
-All your files should end with a new line
-The first line of all your files should be exactly #!/bin/bash
-All your files must be executable
+- 0x00-python-hello_world
+- 0x01-python-if_else_loops_functions
+- 0x02-python-import_modules
+- 0x03-python-data_structures
+- 0x04-python-more_data_structures
+- 0x05-python-exceptions
+- 0x06-python-test_driven_development
+- 0x07-python-classes
+- 0x08-python-more_classes
+- 0x09-python-everything_is_object
+- 0x0A-python-inheritance
+- 0x0B-python-input_output
