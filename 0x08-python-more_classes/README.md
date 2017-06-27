@@ -1,8 +1,10 @@
-### Readme
+## Python More Classes
 
-- A simple introduction to Object Oriented Programming without going into much detail:
-- Read everything until the paragraph "Inheritance" excluded
-- Object-Oriented Programming. Please be careful: in most of the following paragraphs, the author shows things the way you should not use or write a class, in order to make you better understand some concepts and how everything works in Python 3. Make sure you read everything. Read only the following paragraphs:
+### Read
+
+ - A simple introduction to Object Oriented Programming without going into much detail:
+ - Read everything until the paragraph "Inheritance" excluded
+ - Object-Oriented Programming. Please be careful: in most of the following paragraphs, the author shows things the way you should not use or write a class, in order to make you better understand some concepts and how everything works in Python 3. Make sure you read everything. Read only the following paragraphs:
  - General Introduction
  - First-class Everything
  - A Minimal Class in Python
@@ -13,9 +15,9 @@
  - __str__- and __repr__-Methods
  - Public- Protected- and Private Attributes
  - Destructor
-- Class and Instance Attributes
-- Properties vs. Getters and Setters
-- __str__ vs __repr__
+ - Class and Instance Attributes
+ - Properties vs. Getters and Setters
+ - __str__ vs __repr__
 
 ### What you should learn from this project
 
