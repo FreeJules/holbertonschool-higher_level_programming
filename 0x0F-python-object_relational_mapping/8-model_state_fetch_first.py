@@ -1,5 +1,4 @@
 #!/usr/bin/python3
-#!/usr/bin/python3
 '''
 prints the first State object from the database hbtn_0e_6_usa
 '''
@@ -15,7 +14,7 @@ if __name__ == '__main__':
 
     Session = sessionmaker(bind=engine)
     session = Session()
-    state session.query(State).first()
+    state = session.query(State).first()
     if state:
         print("{}: {}".format(state.id, state.name))
     else:
