@@ -22,6 +22,6 @@ if __name__ == "__main__":
     query_rows = cur.fetchall()
     for row in query_rows:
         new_list.append(row[0])
-    print (", ".join(new_list))
+    print(", ".join(new_list))
     cur.close()
     conn.close()
