@@ -11,6 +11,9 @@
 
 - [SQLAlchemy](http://docs.sqlalchemy.org/)
 - [mysqlclient/MySQLdb](https://github.com/PyMySQL/mysqlclient-python)
+- [Introduction to SQLAlchemy](https://www.youtube.com/watch?v=woKYyhLCcnU)
+- [Flask SQLAlchemy](https://www.youtube.com/playlist?list=PLXmMXHVSvS-BlLA5beNJojJLlpE0PJgCW)
+- [10 common stumbling blocks for SQLAlchemy newbies](http://alextechrants.blogspot.com/2013/11/10-common-stumbling-blocks-for.html)
 
 ### What you should learn from this project
 
