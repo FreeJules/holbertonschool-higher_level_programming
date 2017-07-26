@@ -14,7 +14,6 @@ if __name__ == "__main__":
                 (search_for,))
     query_rows = cur.fetchall()
     for row in query_rows:
-        if row[1] == search_for:
-            print(row)
+        print(row)
     cur.close()
     conn.close()
