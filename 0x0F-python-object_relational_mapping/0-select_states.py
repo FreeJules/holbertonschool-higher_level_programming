@@ -1,4 +1,7 @@
 #!/usr/bin/python3
+"""
+0-select_states.py
+"""
 import MySQLdb
 import sys
 
@@ -11,3 +14,6 @@ for row in query_rows:
     print(row)
 cur.close()
 conn.close()
+
+if __name__ == "__main__":
+    pass
