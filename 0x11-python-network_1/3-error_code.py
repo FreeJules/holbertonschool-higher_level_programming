@@ -1,9 +1,10 @@
 #!/usr/bin/python3
 """
-manages urllib.error.HTTPError exceptions
+3-error_code.py
 """
 import urllib.request
 import sys
+
 
 if __name__ == "__main__":
     url = sys.argv[1]
@@ -11,6 +12,6 @@ if __name__ == "__main__":
     try:
         with urllib.request.urlopen(req) as response:
             html = response.read()
-            print (html.decode('utf8'))
+            print(html.decode('utf8'))
     except urllib.error.HTTPError as e:
-        print ('Error code: {}'.format(e.code))
+        print('Error code: {}'.format(e.code))

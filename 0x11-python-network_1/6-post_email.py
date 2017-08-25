@@ -1,10 +1,13 @@
 #!/usr/bin/python3
 """
-takes in a URL and an email address, sends a POST request
+6-post_email.py
 """
 import requests
 import sys
 
+
 if __name__ == "__main__":
-    r = requests.post(sys.argv[1], {'email': sys.argv[2]})
-    print (r.text)
+    url = sys.argv[1]
+    email = sys.argv[2]
+    r = requests.post(url, {'email': email})
+    print(r.text)

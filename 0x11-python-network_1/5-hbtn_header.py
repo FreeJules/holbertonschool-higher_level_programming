@@ -1,10 +1,11 @@
 #!/usr/bin/python3
 """
-requests URL and displays the value of the variable X-Request-Id
+5-hbtn_header.py
 """
 import requests
 import sys
 
 if __name__ == "__main__":
-    r = requests.get(sys.argv[1])
+    url = sys.argv[1]
+    r = requests.get(url)
     print(r.headers['X-Request-Id'])
