@@ -4,5 +4,5 @@ import requests
 
 r = requests.get('https://intranet.hbtn.io/status')
 print ('Body response:')
-print ('    - type: {}'.format(type(r.text)))
-print ('    - type: {}'.format(r.text))
+print ('\t- type: {}'.format(type(r.text)))
+print ('\t- type: {}'.format(r.text))
