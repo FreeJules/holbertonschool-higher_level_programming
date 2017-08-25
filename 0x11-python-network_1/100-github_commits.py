@@ -4,13 +4,13 @@
 """
 import requests
 import sys
-from requests.auth import HTTPBasicAuth
-url = 'https://api.github.com/repos/'
-repo = sys.argv[1]
-owner = sys.argv[2]
-link = url + owner + '/' + repo + '/commits'
+
 
 if __name__ == "__main__":
+    url = 'https://api.github.com/repos/'
+    repo = sys.argv[1]
+    owner = sys.argv[2]
+    link = url + owner + '/' + repo + '/commits'
     r = requests.get(link)
     json = r.json()
     json = json[:10]
