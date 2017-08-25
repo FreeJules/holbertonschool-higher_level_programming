@@ -14,8 +14,10 @@ if __name__ == "__main__":
     print('Number of results: {}'.format(json.get("count")))
     for i in json.get("results"):
         print(i.get("name"))
-    while json.get('hasMore') is True:
-        r = requests.get(url + '{}'.format(json['nextPageUrl']), params=value)
+    next_page = json.get("next")
+    while next_page:
+        r = requests.get(next_page, params=value)
         json = r.json()
         for i in json.get("results"):
             print(i.get("name"))
+        next_page = json.get("next")
