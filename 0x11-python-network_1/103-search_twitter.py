@@ -41,6 +41,6 @@ if __name__ == "__main__":
     json = r.json()
     status_list = json.get("statuses")[:5]
     for i in status_list:
-        print ("[{}] {} by {}".format(i.get("id"),
-                                      i.get("text"),
-                                      i.get("user").get("name")))
+        print("[{}] {} by {}".format(i.get("id"),
+                                     i.get("text"),
+                                     i.get("user").get("name")))
