@@ -4,5 +4,5 @@ let arg = Number(args[1]);
 if (!arg) {
   console.log('Not a number');
 } else {
-  console.log(parseInt(arg));
+  console.log('My number:', parseInt(arg));
 }
