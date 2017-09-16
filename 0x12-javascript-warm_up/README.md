@@ -15,6 +15,7 @@
 * [Module patterns](http://darrenderidder.github.io/talks/ModulePatterns/#/)
 * [var, let and const](https://www.youtube.com/watch?v=sjyJBL5fkp8)
 * [Javascript Tutorial](https://www.youtube.com/watch?v=vZBCTc9zHtI)
+* [Javascript add method to object](https://stackoverflow.com/questions/13521833/javascript-add-method-to-object)
 
 ### What you should learn from this project
 
