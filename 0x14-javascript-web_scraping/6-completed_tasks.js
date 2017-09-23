@@ -7,13 +7,15 @@ request(requestURL, function (error, response, body) {
     console.log(error);
   } else {
     let jsonObj = {};
-    for (let i = 1; i <= 10; i++) {
-      jsonObj[i] = 0;
-    }
     let bodyJson = JSON.parse(body);
     for (let j = 0; j < bodyJson.length; j++) {
       if (bodyJson[j].completed === true) {
-        jsonObj[bodyJson[j].userId] += 1;
+        let uid = bodyJson[j].userId;
+        if (jsonObj.hasOwnProperty(uid)) {
+          jsonObj[uid] += 1;
+        } else {
+          jsonObj[uid] = 1;
+        }
       }
     }
     console.log(jsonObj);
