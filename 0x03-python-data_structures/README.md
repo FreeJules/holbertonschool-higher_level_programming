@@ -1,5 +1,9 @@
 ## Python Data Structures
 
+### Read
+
+Read or watch [3.1.3. Lists](https://docs.python.org/3.4/tutorial/introduction.html#lists), [Data structures](https://docs.python.org/3.4/tutorial/datastructures.html) (until 5.3. Tuples and Sequences included) from [The Python tutorial](https://docs.python.org/3.4/tutorial/index.html) and [Learn to Program 6 : Lists](https://www.youtube.com/watch?v=A1HUzrvS-Pw).
+
 ### What you should learn from this project
 
 - Why Python programming is awesome (don’t forget to tweet today, with the hashtag #pythoniscool :))
