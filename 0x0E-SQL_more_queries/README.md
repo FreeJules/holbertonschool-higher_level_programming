@@ -1,17 +1,23 @@
-## 0x0E. SQL - More queries
+## SQL - More queries
 
 ### Read
 
-- How To Create a New User and Grant Permissions in MySQL
-- How To Use MySQL GRANT Statement To Grant Privileges To a User
-- MySQL constraints
-- SQL technique: subqueries
-- Basic query operation: the join
-- SQL technique: multiple joins and the distinct keyword
-- SQL technique: join types
-- SQL technique: union and minus
-- Jimmy's (My)SQL Cheat Sheet
-- References: MySQL 5.7 SQL Statement Syntax
+Read and/or watch:
+
+- [How To Create a New User and Grant Permissions in MySQL](https://www.digitalocean.com/community/tutorials/how-to-create-a-new-user-and-grant-permissions-in-mysql)
+- [How To Use MySQL GRANT Statement To Grant Privileges To a User](http://www.mysqltutorial.org/mysql-grant.aspx)
+- [MySQL constraints](http://zetcode.com/databases/mysqltutorial/constraints/)
+- [SQL technique: subqueries](http://www.tomjewett.com/dbdesign/dbdesign.php?page=subqueries.php)
+- [Basic query operation: the join](http://www.tomjewett.com/dbdesign/dbdesign.php?page=join.php)
+- [SQL technique: multiple joins and the distinct keyword](http://www.tomjewett.com/dbdesign/dbdesign.php?page=multijoin.php)
+- [SQL technique: join types](http://www.tomjewett.com/dbdesign/dbdesign.php?page=jointypes.php)
+- [SQL technique: union and minus](http://www.tomjewett.com/dbdesign/dbdesign.php?page=setops.php)
+- [Jimmy's (My)SQL Cheat Sheet](http://cse.unl.edu/~sscott/ShowFiles/SQL/CheatSheet/SQLCheatSheet.html)
+- [The Seven Types of SQL Joins](https://blog.teamsql.io/the-seven-types-of-sql-joins-5bc72f69a609)
+
+References: 
+
+- [MySQL 5.7 SQL Statement Syntax](https://dev.mysql.com/doc/refman/5.7/en/sql-syntax.html)
 
 ### What you should learn from this project
 
