@@ -6,18 +6,18 @@ OOP is a totally new concept for all of you (especially those who think they kno
 
 Read or watch in this order:
 * A simple introduction to [Object Oriented Programming](https://python.swaroopch.com/oop.html) without going into much detail:
- * Read everything until the paragraph "Inheritance" excluded
- * You do NOT have to learn about class attributes, ```classmethod``` and ```staticmethod``` yet
+  * Read everything until the paragraph "Inheritance" excluded
+  * You do NOT have to learn about class attributes, ```classmethod``` and ```staticmethod``` yet
 * [Object-Oriented Programming](http://www.python-course.eu/python3_object_oriented_programming.php). Please be careful: in most of the following paragraphs, the author shows things the way you should not use or write a class, in order to make you better understand some concepts and how everything works in Python 3. Make sure you read everything. Read only the following paragraphs:
- * General Introduction
- * First-class Everything
- * A Minimal Class in Python
- * Attributes
- * You NOT have to learn about class attributes
- * Methods
- * The ```__init__``` Method
- * Data Abstraction, Data Encapsulation, and Information Hiding
- * Public- Protected- and Private Attributes
+  * General Introduction
+  * First-class Everything
+  * A Minimal Class in Python
+  * Attributes
+  * You NOT have to learn about class attributes
+  * Methods
+  * The ```__init__``` Method
+  * Data Abstraction, Data Encapsulation, and Information Hiding
+  * Public- Protected- and Private Attributes
 * [Properties vs. Getters and Setters](http://www.python-course.eu/python3_properties.php)
 * TL;DR; - A good wrap-up video about everything you need to know for this project: [Learn to Program 9 : Object Oriented Programming](https://www.youtube.com/watch?v=1AGyBuVCTeE&)
 
