@@ -2,10 +2,10 @@
 
 ### Read
 
-- Inheritance & Multiple inheritance
-- Inheritance in Python
-- Watch Learn to Program 10 : Inheritance Magic Methods
-- Tip from Justin Marsh: Read more books! Python 3 Object-oriented Programming, Chapter 3, p59-66
+- [Inheritance](https://docs.python.org/3.4/tutorial/classes.html#inheritance) & [Multiple inheritance](https://docs.python.org/3.4/tutorial/classes.html#multiple-inheritance)
+- [Inheritance in Python](https://www.packtpub.com/books/content/inheritance-python)
+- Watch [Learn to Program 10 : Inheritance Magic Methods](https://www.youtube.com/watch?v=d8kCdLCi6Lk)
+- Tip from Justin Marsh: Read more books! [Python 3 Object-oriented Programming](http://t3.gstatic.com/images?q=tbn:ANd9GcQUM0y6bxv-QJg-5SvHrf-HBUBTaid1QFxl_gJtGZisbziNydzn), Chapter 3, p59-66
 
 ### What you should learn from this project
 
