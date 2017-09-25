@@ -17,7 +17,7 @@
   * Destructor
 * [Class and Instance Attributes](http://www.python-course.eu/python3_class_and_instance_attributes.php)
 * [Properties vs. Getters and Setters](http://www.python-course.eu/python3_properties.php) - Mainly the last part Public instead of Private Attributes
-* [__str__ vs __repr__](http://brennerm.github.io/posts/python-str-vs-repr.html)
+* [```__str__``` vs ```__repr__```](http://brennerm.github.io/posts/python-str-vs-repr.html)
 
 ### What you should learn from this project
 
