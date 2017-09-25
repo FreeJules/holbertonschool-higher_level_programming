@@ -1,5 +1,11 @@
 ## Python Exceptions
 
+### Read
+
+* Read and/or watch:
+  * [Errors and Exceptions](https://docs.python.org/3.4/tutorial/errors.html) from [The Python tutorial](https://docs.python.org/3.4/tutorial/index.html)
+  * [Learn to Program 11 Static & Exception Handling](https://www.youtube.com/watch?v=7vbgD-3s-w4) (starting at minute 7).
+
 ### What you should learn from this project
 
 - Why Python programming is awesome (don’t forget to tweet today, with the hashtag #pythoniscool :))
