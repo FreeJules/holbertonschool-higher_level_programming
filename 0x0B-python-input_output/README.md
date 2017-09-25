@@ -2,12 +2,13 @@
 
 ### Read
 
-- 7.2. Reading and Writing Files
-- 8.7. Predefined Clean-up Actions
-- Files read until 11.4 Binary Files included
-- JSON encoder and decoder
-- Watch Learn to Program 8 : Reading / Writing Files
-- Tip from Justin Marsh: Read more books! Automate the Boring Stuff with Python ch. 8 p 180-183 and ch. 14 p 326-333.
+- [7.2. Reading and Writing Files](https://docs.python.org/3.4/tutorial/inputoutput.html#reading-and-writing-files)
+- [8.7. Predefined Clean-up Actions](https://docs.python.org/3.4/tutorial/errors.html#predefined-clean-up-actions)
+- [Files](http://www.diveintopython3.net/files.html) read until 11.4 Binary Files included
+- [JSON encoder and decoder](https://docs.python.org/3.4/library/json.html)
+- [Watch Learn to Program 8 : Reading / Writing Files](https://www.youtube.com/watch?v=EukxMIsNeqU)
+
+Tip from Justin Marsh: Read more books! [Automate the Boring Stuff with Python](https://automatetheboringstuff.com/) ch. 8 p 180-183 and ch. 14 p 326-333.
 
 ### What you should learn from this project
 
