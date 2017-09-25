@@ -1,5 +1,13 @@
 ## Python More Data Structures
 
+### Read
+
+* Read or watch: 
+  * [Data structures](https://docs.python.org/3.4/tutorial/datastructures.html) from [The Python tutorial](https://docs.python.org/3.4/tutorial/index.html)
+  * [Lambda, filter, reduce and map](http://www.python-course.eu/python3_lambda.php)
+  * [Learn to Program 12 Lambda Map Filter Reduce](https://www.youtube.com/watch?v=1GAC6KQUPeg).
+* man: ```python3```
+
 ### What you should learn from this project
 
 - Why Python programming is awesome (don’t forget to tweet today, with the hashtag #pythoniscool :))
