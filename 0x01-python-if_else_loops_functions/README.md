@@ -2,11 +2,11 @@
 
 ### Read
 
-- Read the chapter More Control Flow Tools of The Python tutorial. Read until 4.6. Defining Functions included (you do not have to read '4.7. More on Defining Functions').
-- Also, read these resources: Myths about Indentation and IndentationError.
-- Watch: Learn to Program and Learn to Program 2 : Looping.
-- Python's got style! PEP 8 -- Style Guide for Python Code. Install and usage
-- ... and of course, last but not least: man python3
+- Read the chapter [More Control Flow Tools](https://docs.python.org/3.4/tutorial/controlflow.html) of [The Python tutorial](https://docs.python.org/3.4/tutorial/index.html). Read until 4.6. Defining Functions included (you do not have to read '4.7. More on Defining Functions').
+- Also, read these resources: [Myths about Indentation](http://www.secnetix.de/olli/Python/block_indentation.hawk) and [IndentationError](https://www.youtube.com/watch?v=1QXOd2ZQs-Q).
+- Watch: [Learn to Program](https://www.youtube.com/playlist?list=PLGLfVvz_LVvTn3cK5e6LjhgGiSeVlIRwt) and [Learn to Program 2 : Looping](https://www.youtube.com/playlist?list=PLGLfVvz_LVvTn3cK5e6LjhgGiSeVlIRwt).
+- Python's got style! [PEP 8 -- Style Guide for Python Code](https://www.python.org/dev/peps/pep-0008/). [Install and usage](https://intranet.hbtn.io/projects/231)
+- ... and of course, last but not least: ```man python3```
 - Note: you do not need to understand lists yet.
 
 ### What you should learn from this project
