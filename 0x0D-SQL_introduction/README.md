@@ -4,17 +4,18 @@
 
 Read and/or watch:
 
-- What is Database & SQL?
-- A Basic MySQL Tutorial
-- Basic SQL statements: DDL and DML (no need to read the chapter Privileges)
-- Basic queries: SQL and RA
-- SQL technique: functions
-- SQL technique: subqueries
-- +Anne's tip: What makes the big difference between a backtick and an apostrophe?
+- [What is Database & SQL?](https://www.youtube.com/watch?v=FR4QIeZaPeM)
+- [A Basic MySQL Tutorial](https://www.digitalocean.com/community/tutorials/a-basic-mysql-tutorial)
+- [Basic SQL statements: DDL and DML](http://www.tomjewett.com/dbdesign/dbdesign.php?page=ddldml.php) (no need to read the chapter Privileges)
+- [Basic queries: SQL and RA](http://www.tomjewett.com/dbdesign/dbdesign.php?page=queries.php)
+- [SQL technique: functions](http://www.tomjewett.com/dbdesign/dbdesign.php?page=functions.php)
+- [SQL technique: subqueries](http://www.tomjewett.com/dbdesign/dbdesign.php?page=subqueries.php)
+- +Anne's tip: [What makes the big difference between a backtick and an apostrophe?](http://stackoverflow.com/questions/29402361/what-makes-the-big-difference-between-a-backtick-and-an-apostrophe/29402458#29402458)
+- +John - [(My)SQL Cheat Sheet](http://cse.unl.edu/~sscott/ShowFiles/SQL/CheatSheet/SQLCheatSheet.html)
 
 References:
 
-- MySQL 5.7 SQL Statement Syntax
+- [MySQL 5.7 SQL Statement Syntax](https://dev.mysql.com/doc/refman/5.7/en/sql-syntax.html)
 
 ### What you should learn from this project
 
