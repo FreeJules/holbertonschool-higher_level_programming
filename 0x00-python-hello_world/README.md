@@ -38,8 +38,8 @@ Namespaces are one honking great idea -- let's do more of those!
 * install it: ```sudo apt-get install python3-pep8``` (version 1.7)
   * alternative install using ```pip3``` (Python3 version of pip): [Install](https://pep8.readthedocs.io/en/release-1.7.x/intro.html#installation)
 If ```/usr/bin/pep8``` doesn’t exist, ```pep8``` is located here ```/usr/local/lib/python3.4/dist-packages/pep8.py``` or ```/usr/lib/python3.4/dist-packages/pep8.py``` (```cp /usr/local/lib/python3.4/dist-packages/pep8.py /usr/bin/pep8 && chmod u+x /usr/bin/pep8``` or ```cp /usr/lib/python3.4/dist-packages/pep8.py /usr/bin/pep8 && chmod u+x /usr/bin/pep8```)
-use it: ```pep8 file.py```
-... and of course, last but not least: ```man python3```
+  * use it: ```pep8 file.py```
+* ... and of course, last but not least: ```man python3```
 
 ### What you should learn from this project
 
