@@ -1,4 +1,4 @@
-## 0x0F. Python - Object-relational mapping
+## Python - Object-relational mapping
 
 In this project, you will link to amazing worlds: Databases and Python!
 
