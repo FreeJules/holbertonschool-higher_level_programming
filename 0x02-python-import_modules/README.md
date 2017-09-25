@@ -1,5 +1,11 @@
 ## Python Import Modules
 
+### Read
+
+- Read the chapter [Modules](https://docs.python.org/3.4/tutorial/modules.html) from [The Python tutorial](https://docs.python.org/3.4/tutorial/index.html) and [Command line arguments](https://docs.python.org/3.4/tutorial/stdlib.html#command-line-arguments).
+- Python's got style! [PEP 8 -- Style Guide for Python Code](https://www.python.org/dev/peps/pep-0008/) ([Installation and usage](https://intranet.hbtn.io/projects/231)).
+- ... and of course, last but not least: ```man python3```
+
 ### What you should learn from this project
 
 - Why Python programming is awesome (don’t forget to tweet today, with the hashtag #pythoniscool :))
