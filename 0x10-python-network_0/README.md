@@ -4,7 +4,7 @@
 
 - [HTTP (HyperText Transfer Protocol)](https://www.ntu.edu.sg/home/ehchua/programming/webprogramming/HTTP_Basics.html), except: "TRACE" Request Method, "CONNECT" Request Method, Language Negotiation and "Options MultiView" and Character Set Negotiation
 - [HTTP Cookies](https://developer.mozilla.org/en-US/docs/Web/HTTP/Cookies)
-- [Using cURL to debug](Using cURL to debug)
+- [Using cURL to debug](https://intranet.hbtn.io/concepts/51)
 
 ### What you should learn from this project
 
