@@ -1,5 +1,11 @@
 ## Python Test Driven Development
 
+### Read
+
+* Read the chapter [doctest — Test interactive Python examples](https://docs.python.org/3.4/library/doctest.html) until 26.2.3.7. Warnings included and [doctest – Testing through documentation](https://pymotw.com/2/doctest/).
+* As references:
+  * [Python testing](http://uhs.es/Python.Testing.Beginner%27s.Guide.Daniel.Arbuckle.2010.pdf)
+
 ### What you should learn from this project
 
 - Why Python programming is awesome (don’t forget to tweet today, with the hashtag #pythoniscool :))
