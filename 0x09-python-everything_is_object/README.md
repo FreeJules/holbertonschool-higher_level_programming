@@ -1,5 +1,14 @@
 ## Python - Everything Is Object
 
+### Read
+
+- [9.10. Objects and values](http://www.openbookproject.net/thinkcs/python/english2e/ch09.html#objects-and-values)
+- [9.11. Aliasing](http://www.openbookproject.net/thinkcs/python/english2e/ch09.html#aliasing)
+- [Immutable vs mutable types](http://stackoverflow.com/questions/8056130/immutable-vs-mutable-types)
+- [Mutation](http://www-inst.eecs.berkeley.edu/~selfpace/cs9honline/Q2/mutation.html)
+- [9.12. Cloning lists](http://www.openbookproject.net/thinkcs/python/english2e/ch09.html#cloning-lists)
+- [Python tuples: immutable but potentially changing](http://radar.oreilly.com/2014/10/python-tuples-immutable-but-potentially-changing.html)
+
 ### What you should learn from this project
 
 - Why Python programming is awesome (don’t forget to tweet today, with the hashtag #pythoniscool :))
