@@ -2,22 +2,22 @@
 
 ### Read
 
- - A simple introduction to Object Oriented Programming without going into much detail:
- - Read everything until the paragraph "Inheritance" excluded
- - Object-Oriented Programming. Please be careful: in most of the following paragraphs, the author shows things the way you should not use or write a class, in order to make you better understand some concepts and how everything works in Python 3. Make sure you read everything. Read only the following paragraphs:
- - General Introduction
- - First-class Everything
- - A Minimal Class in Python
- - Attributes
- - Methods
- - The __init__ Method
- - Data Abstraction, Data Encapsulation, and Information Hiding
- - __str__- and __repr__-Methods
- - Public- Protected- and Private Attributes
- - Destructor
- - Class and Instance Attributes
- - Properties vs. Getters and Setters
- - __str__ vs __repr__
+* A simple introduction to [Object Oriented Programming](https://python.swaroopch.com/oop.html) without going into much detail:
+  * Read everything until the paragraph "Inheritance" excluded
+* [Object-Oriented Programming](http://www.python-course.eu/python3_object_oriented_programming.php). Please be careful: in most of the following paragraphs, the author shows things the way you should not use or write a class, in order to make you better understand some concepts and how everything works in Python 3. Make sure you read everything. Read only the following paragraphs:
+  * General Introduction
+  * First-class Everything
+  * A Minimal Class in Python
+  * Attributes
+  * Methods
+  * The ```__init__``` Method
+  * Data Abstraction, Data Encapsulation, and Information Hiding
+  * ```__str__```- and ```__repr__```-Methods
+  * Public- Protected- and Private Attributes
+  * Destructor
+* [Class and Instance Attributes](http://www.python-course.eu/python3_class_and_instance_attributes.php)
+* [Properties vs. Getters and Setters](http://www.python-course.eu/python3_properties.php) - Mainly the last part Public instead of Private Attributes
+* [__str__ vs __repr__](http://brennerm.github.io/posts/python-str-vs-repr.html)
 
 ### What you should learn from this project
 
