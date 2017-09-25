@@ -1,8 +1,8 @@
-## 0x0D. SQL - Introduction
+## SQL - Introduction
 
 ### Read
 
-##### Read and/or watch:
+Read and/or watch:
 
 - What is Database & SQL?
 - A Basic MySQL Tutorial
@@ -12,10 +12,11 @@
 - SQL technique: subqueries
 - +Anne's tip: What makes the big difference between a backtick and an apostrophe?
 
-##### References:
+References:
 
 - MySQL 5.7 SQL Statement Syntax
-- What you should learn from this project
+
+### What you should learn from this project
 
 - What's a database
 - What's a relational database
