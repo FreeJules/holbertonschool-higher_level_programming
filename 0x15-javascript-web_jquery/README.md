@@ -19,7 +19,7 @@ References:
 - [What went wrong? Troubleshooting JavaScript](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps/What_went_wrong)
 - [jQuery](https://jquery.com/)
 - [jQuery API](http://api.jquery.com/)
-- ]jQuery Ajax](https://learn.jquery.com/ajax/)
+- [jQuery Ajax](https://learn.jquery.com/ajax/)
 
 ### What you should learn from this project
 
