@@ -2,24 +2,24 @@
 
 ### Read
 
-- What is JavaScript?
+- [What is JavaScript?](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps/What_is_JavaScript)
 * jQuery:
-  * Selector
-  * Get and set content
-  * Manipulate CSS classes
-  * Manipulate DOM elements
-  * API
+  * [Selector](http://www.jquery-tutorial.net/selectors/using-elements-ids-and-classes/)
+  * [Get and set content](http://www.jquery-tutorial.net/dom-manipulation/getting-and-setting-content/)
+  * [Manipulate CSS classes](http://www.jquery-tutorial.net/dom-manipulation/getting-and-setting-css-classes/)
+  * [Manipulate DOM elements](http://www.jquery-tutorial.net/dom-manipulation/the-append-and-prepend-methods/)
+  * [API](https://oscarotero.com/jquery/)
   * Ajax:
-    * Introduction
-    * GET & POST request
-      * video to resume
+    * [Introduction](http://www.jquery-tutorial.net/ajax/introduction/)
+    * [GET & POST request](http://www.jquery-tutorial.net/ajax/the-get-and-post-methods/)
+      * [video to resume](https://www.youtube.com/watch?v=fEYx8dQr_cQ)
 
-### References:
+References:
 
-- What went wrong? Troubleshooting JavaScript
-- jQuery
-- jQuery API
-- jQuery Ajax
+- [What went wrong? Troubleshooting JavaScript](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps/What_went_wrong)
+- [jQuery](https://jquery.com/)
+- [jQuery API](http://api.jquery.com/)
+- ]jQuery Ajax](https://learn.jquery.com/ajax/)
 
 ### What you should learn from this project
 
